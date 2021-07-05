@@ -11,7 +11,6 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "react": "^16.13.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "history": "^4.10.1",
@@ -19,7 +18,13 @@
   },
   "devDependencies": {
     "@miaoxing/dev": "^7.0.1",
-    "@testing-library/react": "^11.2.6"
+    "@testing-library/react": "^11.2.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
   },
   "ciDependencies": {
     "@mxjs/router-modal": "miaoxing/mxjs-router-modal",
