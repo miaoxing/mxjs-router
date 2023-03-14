@@ -11,6 +11,7 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
+    "@mxjs/auth": "^1.0.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "history": "^4.10.1",
