@@ -1,3 +1,18 @@
+## [0.2.7](https://github.com/miaoxing/mxjs-router/compare/v0.2.6...v0.2.7) (2023-04-15)
+
+
+### Features
+
+* **router:** 增加 `AccessLink` 组件，控制用户有权限才展示链接 ([e7da53f](https://github.com/miaoxing/mxjs-router/commit/e7da53fe1fbc20aad97904e73f45ec7ed589f1e3))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.0.0` to `1.1.0`
+
 ## [0.2.6](https://github.com/miaoxing/mxjs-router/compare/v0.2.5...v0.2.6) (2023-01-01)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/router",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -11,7 +11,7 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "@mxjs/auth": "^1.0.0",
+    "@mxjs/auth": "^1.1.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "history": "^4.10.1",
