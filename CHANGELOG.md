@@ -1,3 +1,18 @@
+## [0.2.8](https://github.com/miaoxing/mxjs-router/compare/v0.2.7...v0.2.8) (2023-04-18)
+
+
+### Bug Fixes
+
+* **router:** `AccessLink` `propTypes` 错误 ([54f2db7](https://github.com/miaoxing/mxjs-router/commit/54f2db7dbfd8c2fc488669ad4a22b0ce7e3ca7d3))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.1.0` to `1.1.1`
+
 ## [0.2.7](https://github.com/miaoxing/mxjs-router/compare/v0.2.6...v0.2.7) (2023-04-15)
 
 
