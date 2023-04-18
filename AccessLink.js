@@ -10,8 +10,9 @@ const AccessLink = ({permission, ...props}) => {
   );
 };
 
-AccessLink.props = {
+AccessLink.propTypes = {
   permission: propTypes.string,
+  to: propTypes.oneOfType([propTypes.string, propTypes.object]),
 };
 
 export default AccessLink;
