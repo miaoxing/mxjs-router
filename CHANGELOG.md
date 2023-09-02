@@ -1,3 +1,14 @@
+## [0.2.11](https://github.com/miaoxing/mxjs-router/compare/v0.2.10...v0.2.11) (2023-09-02)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/auth:** upgrade from `1.1.3` to `1.1.4`
+* **@miaoxing/dev:** upgrade from `8.2.2` to `8.2.3`
+
 ## [0.2.10](https://github.com/miaoxing/mxjs-router/compare/v0.2.9...v0.2.10) (2023-07-31)
 
 
