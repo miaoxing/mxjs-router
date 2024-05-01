@@ -1,3 +1,16 @@
+# [0.3.0](https://github.com/miaoxing/mxjs-router/compare/v0.2.16...v0.3.0) (2024-05-01)
+
+
+### Features
+
+* **router:** 允许通过 `component` 指定链接的组件 ([d5bc0f9](https://github.com/miaoxing/mxjs-router/commit/d5bc0f93ec555d378ec2265ab3ffe9af7e230e9c))
+* 更新 `react-router` 到 v6 ([5c86047](https://github.com/miaoxing/mxjs-router/commit/5c86047d0681c12e7000f89a2d5bf63cb4134247))
+
+
+### BREAKING CHANGES
+
+* 更新 `react-router` 到 v6
+
 ## [0.2.16](https://github.com/miaoxing/mxjs-router/compare/v0.2.15...v0.2.16) (2024-03-31)
 
 
