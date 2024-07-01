@@ -1,2 +1,7 @@
-export Link from './Link';
-export AccessLink from './AccessLink';
+import Link from './Link';
+import AccessLink from './AccessLink';
+
+export {
+  Link,
+  AccessLink,
+};
