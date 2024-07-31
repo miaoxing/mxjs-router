@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/router",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -11,14 +11,14 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "@mxjs/auth": "^1.2.1",
+    "@mxjs/auth": "^1.2.2",
     "react-router": "^6",
     "react-router-dom": "^6",
     "history": "^4.10.1",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^9.1.1",
+    "@miaoxing/dev": "^9.1.2",
     "@testing-library/react": "^14",
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1"
