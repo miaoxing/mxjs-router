@@ -1,5 +1,4 @@
 import { useLinkClickHandler } from 'react-router-dom';
-import { createLocation } from 'history';
 import PropTypes from 'prop-types';
 import ModalContext from './ModalContext';
 import React from 'react';
@@ -50,17 +49,15 @@ BaseLink.propTypes = {
 };
 
 const Link = ({ to, modal, autoModal, ...props }) => {
-  const location = createLocation(to, { modal });
-
   if (!autoModal) {
-    return <BaseLink to={location} {...props}/>;
+    return <BaseLink to={to} {...props}/>;
   }
 
   // 分开减少层级和逻辑
   return <ModalContext.Consumer>
     {({ isModal }) => {
-      location.state.modal = modal || (isModal && autoModal);
-      return <BaseLink to={location} {...props}/>;
+      const state = { modal: modal || (isModal && autoModal) };
+      return <BaseLink to={location} state={state} {...props}/>;
     }}
   </ModalContext.Consumer>;
 };
